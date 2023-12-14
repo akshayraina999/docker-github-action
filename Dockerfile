@@ -1,3 +1,3 @@
 FROM ubuntu:20.04
-RUN apt-get -y update
+RUN apt-get -y update && apt-get upgrade
 RUN apt-get -y install nginx
