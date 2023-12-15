@@ -26,4 +26,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: akshayraina/docker-github-actions:latest
+        tags: |
+          akshayraina/docker-github-actions:latest
+          akshayraina/docker-github-actions:${{ github.sha }}
