@@ -28,4 +28,4 @@ jobs:
         push: true
         tags: |
           akshayraina/docker-github-actions:latest
-          akshayraina/docker-github-actions:${{ github.run_number }}
+          akshayraina/docker-github-actions:v${{ github.run_number }}
